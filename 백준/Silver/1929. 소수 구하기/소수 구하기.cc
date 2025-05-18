@@ -22,7 +22,7 @@ void checkPrime(int M, int N)
             }
         }
         if (isPrime)
-            cout << i << '\n';;
+            cout << i << '\n';
     }
     return;
 }
