@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include<iostream>
+
 using namespace std;
 
 void insert(int idx, int num, int arr[], int& len){
