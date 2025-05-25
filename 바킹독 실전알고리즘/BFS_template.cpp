@@ -1,6 +1,6 @@
 #include<iostream>
 #include<queue>
-#include<pair>
+#include<utility>
 
 #define X fisrt
 #define Y second // pair의 first, second를 축약
