@@ -21,9 +21,11 @@ int main(void){
   queue<int> Q;
   Q.push(n);
 
-  while(dist[k] == -1){
+  while(!Q.empty()) {
     int cur = Q.front();
     Q.pop();
+
+    if (cur == k) break;
 
     for(int nxt : {cur-1, cur+1, 2*cur}){ // -1, +1 이동, x2의 텔포
       if(nxt < 0 || nxt > 100000) continue; // 이동이나 텔포를 해 음수로 가거나, 10만을 넘어 비효율적 탐색을 하게 되면 패스
